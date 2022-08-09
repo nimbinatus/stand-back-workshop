@@ -10,6 +10,8 @@ We'll spend a bit of time talking about pandas and matplotlib, along with numpy 
 
 ### The scenario
 
+[![Austin KVUE](https://img.youtube.com/vi/Dqgl2VK4u8E/0.jpg)](https://www.youtube.com/watch?v=Dqgl2VK4u8E)
+
 In Austin, TX, there's a persistent rumor that the most likely day for hail is March 25, to the point that, even if no hail is forecast, people go park their cars in random parking garages or cover their cars in foam pool toys in a superstitious attempt to ward off damage. Is it true? What's happened there in the past 50 years? Let's find out.
 
 ### Our first application
