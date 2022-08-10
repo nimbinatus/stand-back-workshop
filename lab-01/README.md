@@ -29,7 +29,7 @@ We will be working in the terminal and your IDE. The following commands are run 
     
     This command will print output similar to the following example with a bit more information and status as it goes:
 
-    ```
+    ```shell
     Created project 'iac-workshop'
     Created stack 'dev'
     Saved config
@@ -78,13 +78,13 @@ Now, we need to add configuration values for both clouds. First, let's do AWS.
 
 Configure the AWS region you would like to deploy to:
 
-```
+```bash
 pulumi config set aws:region us-west-2
 ```
 
 If you're using an AWS profile other than the default one, we'll add that as a configuration value, too:
 
-```
+```bash
 pulumi config set aws:profile <profile-name>
 ```
 
@@ -93,12 +93,12 @@ pulumi config set aws:profile <profile-name>
 Configure the GCP project, region, and zone:
 
 ```bash
-pulumi config set gcp:<project-id>
+pulumi config set gcp:project <project-id>
 ```
-```
+```bash
 pulumi config set gcp:region <region>
 ```
-```
+```bash
 pulumi config set gcp:zone <zone>
 ```
 
